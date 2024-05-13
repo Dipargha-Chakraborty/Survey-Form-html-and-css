@@ -1,0 +1,81 @@
+body{
+  background-image: url("survey.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+#title , #description{
+  text-align: center;
+}
+fieldset{
+  border-width: 0px;
+}
+#name{
+  display: block;
+  width: 100%;
+  margin: 5px;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#email{
+  display: block;
+  width: 100%; 
+  margin: 5px;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#number{
+  display: block;
+  width: 100%;
+  margin: 5px;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#name-label , #number-label , #email-label , legend{
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+}
+#dropdown{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+#fep,#bep,#dv,#ch,#osc,#ghr,#vids,#meet,#wiki,#forums,#adc{
+  display: block;
+  margin: 5px;
+  font-size: 20px;
+}
+#def,#maybe,#notsure{
+  display: block;
+  margin: 5px;
+  font-size:20px;
+}
+#text{
+  width: 100%;
+  height: 100px;
+}
+#submit{
+  width: 100%;
+  background-color: lightgreen;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color:lightblue;
+}
+#form{
+  background-color: rgba(35, 132, 111, 0.8);
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 0px;
+  padding: 30px;
+}
+fieldset{
+  margin-top: 20px;
+}
