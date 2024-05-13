@@ -7,7 +7,9 @@ body{
 }
 #title , #description{
   text-align: center;
+  color: white;
 }
+ 
 fieldset{
   border-width: 0px;
 }
@@ -69,13 +71,81 @@ fieldset{
 #submit:hover{
   background-color:lightblue;
 }
-#form{
+.desktop{
   background-color: rgba(35, 132, 111, 0.8);
   margin-left: 350px;
   margin-right: 350px;
   margin-bottom: 0px;
   padding: 30px;
 }
+.mobile{
+  display: None;
+}
 fieldset{
   margin-top: 20px;
+}
+@media screen and (max-width: 1400px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 270px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    padding: 30px;
+  }
+  .desktop{
+    display: None;
+  }
+}
+@media screen and (max-width: 1020px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 0px;
+    padding: 30px;
+  }
+  .desktop{
+    display: None;
+  }
+}
+@media screen and (max-width: 760px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  .desktop{
+    display: None;
+  }
+}
+@media screen and (max-width: 420px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  .desktop{
+    display: None;
+  }
+}
+@media screen and (max-width: 370px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .desktop{
+    display: None;
+  }
 }
