@@ -149,3 +149,29 @@ fieldset{
     display: None;
   }
 }
+@media screen and (max-width: 315px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .desktop{
+    display: None;
+  }
+}
+@media screen and (max-width: 294px){
+  .mobile{
+    display: inline-block;
+    background-color: rgba(35, 132, 111, 0.8);
+    margin-left: 00px;
+    margin-right: 00px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .desktop{
+    display: None;
+  }
+}
